@@ -10,6 +10,20 @@ import {RootState} from './src/store/reducer';
 import {useSelector} from 'react-redux';
 import * as React from 'react';
 
+// 로그인 했을때 보이는 화면들
+export type LoggedInParamList = {
+  Orders: undefined;
+  Settings: undefined;
+  Delivery: undefined;
+  Complete: {orderId: string};
+};
+
+// 로그인 안했을때 보이는 화면들
+export type RootStackParamList = {
+  SignIn: undefined;
+  SignUp: undefined;
+};
+
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

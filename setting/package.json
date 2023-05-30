@@ -18,12 +18,15 @@
     "axios": "^1.4.0",
     "react": "17.0.2",
     "react-native": "0.66.5",
+    "react-native-config": "^1.5.1",
+    "react-native-encrypted-storage": "^4.0.3",
     "react-native-flipper": "^0.191.0",
     "react-native-keyboard-aware-scrollview": "^2.1.0",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.10.1",
     "react-redux": "^8.0.5",
-    "redux-flipper": "^2.0.2"
+    "redux-flipper": "^2.0.2",
+    "socket.io-client": "^4.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
